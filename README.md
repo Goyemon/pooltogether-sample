@@ -8,11 +8,9 @@ $ truffle compile
 ```
 $ oz create
 ```
-## Contracts
-- PoolToken -> This may be main contract.
-- BasePool -> This has pooled ether and a dependency relationships with Compound.
 ## Constructor
 ### [PoolToken](https://github.com/Goyemon/pooltogether-sample/blob/master/contracts/PoolToken.sol)
+PoolToken has information about token `Name` and `Symbol`, `operators` and `pool contract address`.
 Args | Meaning
 :------------ | :-------------
 name|Token Name.
@@ -20,6 +18,7 @@ symbol| Token Symbol.
 defaultOperators| Who are allowed to move tokens.
 pool| BasePool contract address.
 ### [BasePool](https://github.com/Goyemon/pooltogether-sample/blob/master/contracts/BasePool.sol#L244)
+BasePool has information about `Compound contract address` and `gross`.
 Args | Meaning
 :------------ | :-------------
 _owner| The owner of the Pool.  They are able to change settings and are set as the owner of new lotteries.
