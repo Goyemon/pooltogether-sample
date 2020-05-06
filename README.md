@@ -10,7 +10,7 @@ $ oz create
 ```
 ## Contracts
 - PoolToken -> This may be main contract.
-- BasePool -> This has pooled ether.
+- BasePool -> This has pooled ether and a dependency relationships with Compound.
 ## Constructor
 ### [PoolToken](https://github.com/Goyemon/pooltogether-sample/blob/master/contracts/PoolToken.sol)
 Args | Meaning
