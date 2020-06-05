@@ -10,8 +10,13 @@ $ truffle compile
 Pool Dai Proxy -> https://etherscan.io/address/0x29fe7D60DdF151E5b52e5FAB4f1325da6b2bD958
 Pool Dai Implementation -> https://etherscan.io/address/0xa125841831b4645f22c1c4ccb6e1df0842e60040#code
 ```
+- PoolToken
+```
+Pool Dai Token Proxy -> https://etherscan.io/address/0x49d716dfe60b37379010a75329ae09428f17118d#readProxyContract
+Pool Dai Token Implementation -> https://etherscan.io/address/0x23ca306c621a9d6f3cade4fa05a4b702dfeafdf2#code
+```
 
-## Sequential
+## BasePool Deploy
 - contract creation
 https://etherscan.io/tx/0xb8b5a57fa3bab5d8832022ede26cc9c5111380fbbc18412c7e1164ffb912e69b
 - setPoolToken
@@ -28,6 +33,14 @@ https://etherscan.io/tx/0x38c07824588243ecfaba9c80fa4d38829b69f03e6f592957e4cfe7
 https://etherscan.io/tx/0x2aefe7a776981491a02d8a2aec274f468b01da4ed89a6ff67c1948d93bc0d807
 - addAdmin
 https://etherscan.io/tx/0xade3a498a6487c0422fe627b5aa8e2c0a6d7113aad19e4ab46571e832342011e
+
+## PoolToken Deploy
+- contract creation
+https://etherscan.io/tx/0xa3e327954d63d8c845c774cf1e69f45fca5df1e4e1ee694ebf0339f235a3d683
+- setRecipientWhitelistEnabled
+https://etherscan.io/tx/0x5f5bdd8ebb900005b18c959f2df5b436a817e4e5a59d2b46aded236cd65ba3af
+- setRecipientWhitelistEnabled
+https://etherscan.io/tx/0xd038041e436550c1fecc57216de2d64e1e4925d1f9ca25ea1d4c5ff247fc3ca9
 
 ## Constructor
 ### [PoolToken](https://github.com/Goyemon/pooltogether-sample/blob/master/contracts/PoolToken.sol)
