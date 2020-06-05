@@ -5,6 +5,7 @@ Trying to deploy pooltogether contract to Ropsten.
 $ truffle compile
 ```
 ## Basic
+- BasePool
 ```
 Pool Dai Proxy -> https://etherscan.io/address/0x29fe7D60DdF151E5b52e5FAB4f1325da6b2bD958
 Pool Dai Implementation -> https://etherscan.io/address/0xa125841831b4645f22c1c4ccb6e1df0842e60040#code
@@ -47,3 +48,8 @@ _feeFraction| The fraction of the gross winnings that should be transferred to t
 _feeBeneficiary| The address that will receive the fee fraction
 _lockDuration| The duration, in blocks, that the lock should last.
 _cooldownDuration| The duration of the cooldown, in blocks.
+
+## Value
+- owner = same with addAdmin argument
+- cToken = 0x5d3a536e4d6dbd6114cc1ead35777bab948e3643
+- lockDuration = 40
