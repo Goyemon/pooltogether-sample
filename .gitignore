@@ -2,9 +2,9 @@
 .openzeppelin/.session
 
 deployment/basepool/.openzeppelin/*.json
-deployment/pooltoken/.openzeppelin/.session
+deployment/basepool/.openzeppelin/.session
 
-.openzeppelin/*.json
-.openzeppelin/.session
+deployment/pooltoken/.openzeppelin/*.json
+deployment/pooltoken/.openzeppelin/.session
 build
 node_modules

@@ -1,6 +1,8 @@
 {
   "manifestVersion": "2.2",
-  "contracts": {},
+  "contracts": {
+    "BasePool": "BasePool"
+  },
   "dependencies": {},
   "name": "goyemon",
   "version": "0.0.1",
