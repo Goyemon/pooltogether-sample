@@ -1,4 +1,10 @@
 .openzeppelin/*.json
 .openzeppelin/.session
+
+deployment/basepool/.openzeppelin/*.json
+deployment/pooltoken/.openzeppelin/.session
+
+.openzeppelin/*.json
+.openzeppelin/.session
 build
 node_modules
