@@ -23,7 +23,7 @@ https://etherscan.io/tx/0xb8b5a57fa3bab5d8832022ede26cc9c5111380fbbc18412c7e1164
 https://etherscan.io/tx/0x00eab71bf23a8ec3bffc7486879be4f6bd5f5866454bc8be195e89ed4c8a992c
 - addAdmin
 https://etherscan.io/tx/0x24a50e22de4dbdef557ef770f85b45f82ac783b7c96c96838d609d551a1c1abf
-- setNextFeeBeneficiary
+- setNextFeeBeneficiary(0x29fe7D60DdF151E5b52e5FAB4f1325da6b2bD958)
 https://etherscan.io/tx/0x3fc1f20cb281c354ed6ef7bcac9f35a208fcc9449d6511ba243100687434fcea
 - addAdmin
 https://etherscan.io/tx/0x70aa623a8409e8c91e4b32a334cf25975a77f96a12409e2f13c70da875b565aa
