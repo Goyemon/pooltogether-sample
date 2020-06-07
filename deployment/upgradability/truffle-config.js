@@ -17,7 +17,7 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
-
+require('dotenv').config()
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
@@ -46,6 +46,9 @@ module.exports = {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 7545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
+     from: '0x17a4dC4aF1FAF9c3Db0515a170491c37eb0373Dc',
+     gas: 85000,
+     gasPrice: 200000000
     },
 
     // Another network with more advanced options...
@@ -62,17 +65,18 @@ module.exports = {
     // NB: It's important to wrap the provider as a function.
     ropsten: {
       provider: () => new HDWalletProvider(
-        "8ECECD18E847585DBF00F97D25A15F87CB76B5DE9DB0C700F70D610086B4A559",
+        process.env.PRIVATE_KEY,
         "https://ropsten.infura.io/v3/df995414148e47f4807318c48283f51b",
         0,
         2
       ),
       network_id: 3,       // Ropsten's id
       gas: 8000000,        // Ropsten has a lower block limit than mainnet
+      gasPrice: 10000000000,
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true,     // Skip dry run before migrations? (default: false for public nets )
-      from: '0xbF67c688C99cfE879165706d1FE0A5F80a39dFA6'
+      from: process.env.ADDRESS
     },
 
     // Useful for private networks
@@ -91,7 +95,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.5.16",    // Fetch exact version from solc-bin (default: truffle's version)
+      // version: "0.5.1",    // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       // settings: {          // See the solidity docs for advice about optimization and evmVersion
       //  optimizer: {

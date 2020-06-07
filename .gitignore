@@ -8,3 +8,5 @@ deployment/pooltoken/.openzeppelin/*.json
 deployment/pooltoken/.openzeppelin/.session
 build
 node_modules
+
+.env
