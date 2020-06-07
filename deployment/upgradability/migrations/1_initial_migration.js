@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const GoyemonProxyAdmin = artifacts.require("GoyemonProxyAdmin")
 
-module.exports = function(deployer) {
-  deployer.deploy(Migrations);
-};
+module.exports = async (deployer, networks, accounts) => {
+  await deployer.deploy(GoyemonProxyAdmin)
+}
