@@ -65,7 +65,7 @@ module.exports = {
     // NB: It's important to wrap the provider as a function.
     ropsten: {
       provider: () => new HDWalletProvider(
-        "beef popular canvas victory stereo grain cinnamon sample also move build kid",
+        "8ECECD18E847585DBF00F97D25A15F87CB76B5DE9DB0C700F70D610086B4A559",
         "https://ropsten.infura.io/v3/df995414148e47f4807318c48283f51b",
         0,
         2
@@ -75,7 +75,7 @@ module.exports = {
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true,     // Skip dry run before migrations? (default: false for public nets )
-      from: '0xB35fc8e44808f22f98354DA1C441E02D9bDc5D2F'
+      from: '0xbF67c688C99cfE879165706d1FE0A5F80a39dFA6'
     },
 
     // Useful for private networks
